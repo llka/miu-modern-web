@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @org.springframework.stereotype.Controller
 public class Controller {
-    @GetMapping("/miu-modern-web-technologies")
+    @GetMapping({"/miu-modern-web-technologies", "/"})
     public String home(Model model) {
         return "home";
     }
