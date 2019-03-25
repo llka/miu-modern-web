@@ -31,12 +31,12 @@
     <div class="responsive"><i class="fa fa-bars"></i></div>
     <nav>
         <ul class="menu-list">
-            <li class="active"><a href="./miu-modern-web-technologies">Главная</a></li>
+            <li class="active"><a href="../miu-modern-web-technologies">Главная</a></li>
             <li><a href="../miu-modern-web-technologies/server">Сервер</a></li>
-            <li><a href="modern-web-technologies/database">Базы данных</a></li>
-            <li><a href="modern-web-technologies/client-server">Клиент-сервер</a></li>
-            <li><a href="modern-web-technologies/html5-css3">HTML5 и CSS3</a></li>
-            <li><a href="modern-web-technologies/web-socket">Веб сокеты</a></li>
+            <li><a href="../miu-modern-web-technologies/database">Базы данных</a></li>
+            <li><a href="../miu-modern-web-technologies/client-server">Клиент-сервер</a></li>
+            <li><a href="../miu-modern-web-technologies/html5-css3">HTML5 и CSS3</a></li>
+            <li><a href="../miu-modern-web-technologies/web-socket">Веб сокеты</a></li>
         </ul>
     </nav>
 </header>
@@ -44,7 +44,7 @@
 
 
 <!-- content section -->
-<div class="about-section">
+<div class="about-section" style="height: 100%;">
     <div class="about-contant">
         <div class="container">
             <div class="section-title">
@@ -77,12 +77,13 @@
 
 
 <!--====== Javascripts & Jquery ======-->
-<script type="text/javascript" th:src="@{js/jquery-2.1.4.min.js}"></script>
-<script type="text/javascript" th:src="@{js/bootstrap.min.js}"></script>
-<script type="text/javascript" th:src="@{js/magnific-popup.min.js}"></script>
-<script type="text/javascript" th:src="@{js/owl.carousel.min.js}"></script>
-<script type="text/javascript" th:src="@{js/circle-progress.min.js}"></script>
-<script type="text/javascript" th:src="@{js/main.js}"></script>
+<script type="text/javascript" src="../static/js/jquery-2.1.4.min.js" th:src="@{/js/jquery-2.1.4.min.js}"></script>
+<script type="text/javascript" src="../static/js/bootstrap.min.js" th:src="@{/js/bootstrap.min.js}"></script>
+<script type="text/javascript" src="../static/js/magnific-popup.min.js" th:src="@{/js/magnific-popup.min.js}"></script>
+<script type="text/javascript" src="../static/js/owl.carousel.min.js" th:src="@{/js/owl.carousel.min.js}"></script>
+<script type="text/javascript" src="../static/js/circle-progress.min.js"
+        th:src="@{/js/circle-progress.min.js}"></script>
+<script type="text/javascript" src="../static/js/main.js" th:src="@{/js/main.js}"></script>
 
 </body>
 </html>

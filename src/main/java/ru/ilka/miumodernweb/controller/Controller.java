@@ -16,22 +16,22 @@ public class Controller {
         return "server";
     }
 
-    @GetMapping(value = "/database")
+    @GetMapping(value = "/miu-modern-web-technologies/database")
     public String getDatabaseModelInfo() {
         return "database";
     }
 
-    @GetMapping(value = "/client-server")
+    @GetMapping(value = "/miu-modern-web-technologies/client-server")
     public String getClientServerInfo() {
         return "client-server";
     }
 
-    @GetMapping(value = "/html5-css3")
+    @GetMapping(value = "/miu-modern-web-technologies/html5-css3")
     public String getHtmlInfo() {
         return "html5-css3";
     }
 
-    @GetMapping(value = "/web-socket")
+    @GetMapping(value = "/miu-modern-web-technologies/web-socket")
     public String getWebSocketInfo() {
         return "web-socket";
     }
